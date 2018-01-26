@@ -1,0 +1,44 @@
+body {
+  background-image: url('../assets/images/fondo.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.height {
+  margin-top: 100px;
+}
+
+.white-letter {
+  color: white;
+}
+
+hr {
+  border: 1px solid white;
+}
+
+img {
+  margin-bottom: -550px; 
+}
+
+@media only screen and (min-width: 601px) {
+  body {
+    background-image: url(../assets/images/fondo2.jpg);
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .white-letter2 {
+    color: white;
+  }
+
+  img {
+    margin-left: 800px;
+    margin-top: -1000px; 
+  }
+}
